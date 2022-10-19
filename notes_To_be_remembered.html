@@ -1,0 +1,100 @@
+       <!----------------------this is formating lecture 11---------------------->
+<i></i> =====> for making the formate of the text between them italic
+<b></b> =====> for make the the text bold
+<strong></strong>===>it is like <b></b> but it mean tha its important text.
+<mark></mark> =====> hilight the text 
+<u></u> =====> underling the text.
+<em></em>====> emphasized the text. like [<i></i>] 
+<small></small>====> to make the text small 
+<del></del>===>delet the text (important when there is a discount)
+<ins></ins>=== underling the text like [<u></u>]
+<sub></sub>====> subscritp (important when using chemical notation)
+<suP></suP>====> superscript (important when using mathematical notation)
+       <!----------------------links and images---------------------->
+<a></a> ===>this tag is used to insert link and has attributes :
+ href="" : here we put the link
+ target="" : when we set it with _blank it means when i press the link 
+            it will open it in a new tab 
+<img src="" alt=""> ====> it is selfclosing tag
+            it has attributes like 
+            src : the link to the Image
+            alt : alternative text
+
+       <!----------------------Lists (ordered and unorderd )---------------------->
+<ul></ul> : unorder list
+<li></li> : list item
+
+<ol></ol>  : orderd list
+has attributes like:
+<ol reverse></ol> : to reverse the order of the elements
+<ol type ></ol> type of ordering maybe :
+         ->type="1" means start numbering this elements from 1.
+         ->type ="A" means start numbering from A to ...
+<ol start="V" type="I"></ol> : start from position
+         <dl></dl> : discription list rarly used
+  dl ==> discription list
+  dt ==> term 
+  dd ==> discription of the term   
+       <!----------------------TABLE---------------------->
+<table>
+
+       <!-- this used to creat the body of the table -->
+       <caption>Here we put the caption</caption>
+       <thead> 
+              this is the header of the table inside it we but our date
+              <tr> this called table row 
+                     <td> table data cell</td>
+              </tr>
+       </thead>
+       <tbody> this is the body of the table </tbody>
+       <tr>
+              <td colspan="2">ad</td> <td>adfa</td>
+              colspan : means that this table  cell will fill 2 column
+       </tr>
+       <tfoot>theis the footer of the table </tfoot>
+</table>
+       <!----------------------span br hr---------------------->
+<span> we just use it if we need to isolate 
+       an element or word within a context to manipulate it</span>
+        
+<p>this a simple <span>text</span> i need to isolate the word text so i put it in aspan</p>
+
+       <!----------------------Div---------------------->
+<div>is the King  Elemment </div>
+       it works like a container of some elements through it we can manipulate
+       the style of number of elements together 
+       <!----------------------Entities---------------------->
+Entities is used to to display reserved characters like [<] sympol or [>] 
+if we need to display < char we type this (&lt;)
+       <!----------------------Semantic----------------------->
+       means that the div is semantic (hhhhh..) it is the same as 
+       div but just give a meaning of its content.
+
+       <!-----------------------layout of the web-->
+here just clarifay the benfit of using the semantic tages insted of div
+
+       <!------------------------Audio Attribute--------------------->
+<audio> it can contain attribute like src but preferred to use <source> tag
+       <source src="her we put the path to our audio file"> 
+</audio> 
+
+some of audio tag attribute : 
+controls : to show the play button and other options
+autplay : to autoplay the audio file when we open the page 
+loop : infinite loop
+muted : to mute the voice
+
+       <!-------------------------Video------------------------->
+its like audio tage but have some special attribute like;
+
+width : the width of the vidio
+hight : the hiht of the vidio 
+<video poster="here we put poster to the video while the video is loaded from the server"></video>
+
+        <!------------------------- Form ------------------------->
+<form>
+       has elements like 
+       <input type="can be pass text or ....">   that elemetn has a lot of attribute like type
+       also ther is the <label>Username</label>
+       
+</form>
