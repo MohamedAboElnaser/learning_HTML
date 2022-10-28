@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
 </head>
+
 <body>
     <br>
-    <form>
+    <form method="get">
         <div>
-            <label>UserName</label>          <input type="text" required> 
+            <label>UserName</label>
+            <input type="text" required name="Username" value="Mohamed" readonly placeholder="UserName" disabled>
         </div>
         <br>
         <div>
-            <label>Password&nbsp;&nbsp;</label>      <input type ="password">
+            <label>Password&nbsp;&nbsp;</label>
+            <input type="password" name="Pass" minlength="8" maxlength="13 ">
         </div>
         <br>
-        <input type="submit" value="upload">
-     
         <div>
             <label>Email</label>
-                <input type="email" required>
+            <input type="email" required name="mail" autofocus>
         </div>
+        <br>
+        <label>Color</label>
+        <input type="color" name="Color">
+        <br><br>
+        <input type="submit" value="upload">
+        <input type="reset" value="Clear">
     </form>
 </body>
+
 </html>
